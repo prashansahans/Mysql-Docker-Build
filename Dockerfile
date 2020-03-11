@@ -1,4 +1,4 @@
-FROM docker.io/library/mysql
+FROM mysql
 ENV MYSQL_DATABASE team
 COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
 
