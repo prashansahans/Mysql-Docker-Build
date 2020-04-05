@@ -1,5 +1,5 @@
 CREATE TABLE cbps (
-member_id int,
+id int,
 emp_name varchar(25),
 mentor_name  varchar(25),
 worked_on varchar(15),
